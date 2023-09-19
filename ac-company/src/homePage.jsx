@@ -6,8 +6,9 @@ function homePage() {
   return (
     <div id='home-main-div'>
 
-      <div id='img-div'>
-        <img id='logo-img' src={ACLogo} />
+      <div id='logo-div'>
+        <span><img id='logo-img' src={ACLogo} /></span>
+        <span id='header-name'>Kumuk Air 84</span>
       </div>
 
       {/* down here need inline list of page options */}
