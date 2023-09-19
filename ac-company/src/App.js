@@ -1,6 +1,6 @@
 import './App.css';
-import HomePage from './homePage';
-import NavLinks from './navLinks';
+import HomePage from './Components/homePage';
+import NavLinks from './Components/navLinks';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

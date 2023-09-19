@@ -1,6 +1,6 @@
 import React from 'react'
-import ACLogo from './ACLogo.png'
-import './CSS/header.css'
+import ACLogo from '../ACLogo.png'
+import '../CSS/header.css'
 
 function header() {
   return (
