@@ -1,14 +1,16 @@
 import './App.css';
+import Header from './Components/header'
 import HomePage from './Components/homePage';
 import NavLinks from './Components/navLinks';
-import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
   return (
     <div>
       < NavLinks />
+      < Header />
       < HomePage />
     </div>
   );
