@@ -9,6 +9,21 @@ function homePage() {
 
       <Carousel />
 
+      <div className='home-header-text-box'>
+        <h1>Some Header</h1>
+        <p>some text</p>
+      </div>
+
+      <div className='home-header-text-box'>
+        <h1>Some Header</h1>
+        <p>some text</p>
+      </div>
+
+      <div className='home-header-text-box'>
+        <h1>Some Header</h1>
+        <p>some text</p>
+      </div>
+
     </div>
   )
 }

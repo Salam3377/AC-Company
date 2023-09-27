@@ -4,14 +4,30 @@
 }
 
 #header-name {
-    
     font-size: 50px;
 }
-
 
 #logo-img {
     position: absolute;
     left: 50px;
     margin-top: 0px;
     width: 150px;
+}
+
+#nav-list-div {
+    width: fit-content;
+    margin: auto;
+}
+
+a {
+    padding: 20px;
+}
+
+#nav-list-div a {
+text-decoration: none;
+color: black;
+}
+
+#nav-list-div a.active {
+text-decoration: underline;
 }
