@@ -15,7 +15,7 @@ function header() {
       <div id='nav-list-div'>
 
         <NavLink 
-          to="/home" 
+          to="/" 
           activeclassname="active" 
           exact="true"
         >Home</NavLink>

@@ -19,7 +19,7 @@ function App() {
       < Header />
       {/* < HomePage /> */}
       <Routes>
-        <Route path="/home" element={< HomePage />} />
+        <Route path="/" element={< HomePage />} />
         <Route path="/heating" element={< Heating />} />
         <Route path="/ventilation" element={< Ventilation />} />
         <Route path="/ac" element={< AC />} />
