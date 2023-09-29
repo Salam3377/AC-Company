@@ -4,7 +4,7 @@ import HomePage from './Components/homePage';
 import NavLinks from './Components/navLinks';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FooterPage from './Components/footer';
-
+import AboutUs from './Components/aboutUs';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       < NavLinks />
       < Header />
       < HomePage />
+      < AboutUs />
       < FooterPage />
     </div>
   );
