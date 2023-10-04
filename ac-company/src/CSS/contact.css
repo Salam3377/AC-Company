@@ -1,0 +1,13 @@
+.field-input {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.box {
+    width: 100%; /* Make the input field take up the full width */
+    padding: 50px; /* Add some padding for spacing */
+    border: 3px solid #0f0101; /* Add a border for clarity */
+    border-radius: 2px; /* Add rounded corners */
+
+  }
