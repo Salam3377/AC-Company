@@ -17,12 +17,18 @@ function Contact() {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
+    <div>
       <label>Name</label>
       <input type='text' name="user_name"></input>
+    </div>
+    <div>
       <label>Email</label>
       <input type="email" name="user_email"></input>
+    </div>
+    <div>
       <label>Message</label>
       <textarea name="message" />
+    </div>
       <input type="submit" value="send" />
     </form>
   );
