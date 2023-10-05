@@ -1,0 +1,50 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-bottom: 15px; /* Add some space between input groups */
+  }
+  
+
+
+label{
+    color: #B4886B;
+    padding: 10px;
+
+    font-weight: bold;
+
+}
+
+
+textarea {
+    width: 100%; /* Adjust the width as needed */
+    padding: 50px; /* Adjust the padding to increase the height */
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Make the form fill the entire viewport height */
+  }
+
+button {
+    background-color: #B4886B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 21px;
+    cursor: pointer;
+    font-family: "RM Neue", sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    text-transform: none;
+    transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
