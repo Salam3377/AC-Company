@@ -20,6 +20,7 @@ function Contact() {
   return (
     <form ref={form} onSubmit={sendEmail}>
 
+
     <div className='field-input'>
       <label>Name</label>
     </div>
@@ -35,6 +36,27 @@ function Contact() {
     <div className='field-input'>
       <input type="submit" value="send"/>
     </div>
+
+
+    <div className='title'>
+      <div>
+      <label className='title-label'>Name</label>
+      </div>
+      <input placeholder='your name...' name="user_name"></input>
+    </div>
+    <div className='title'>
+    <div>
+      <label className='title-label'>Email</label>
+    </div>
+      <input placeholder='email' type="email" name="user_email"></input>
+    </div>
+    <div className='title'>
+      <label>Message</label>
+      <textarea className='test' placeholder='message...' type= "text" name="message" />
+    </div>
+    <button>
+      Send
+    </button>
 
     </form>
   );
