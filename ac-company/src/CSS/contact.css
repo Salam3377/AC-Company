@@ -10,7 +10,7 @@
     padding: 50px; /* Add some padding for spacing */
     border: 3px solid #0f0101; /* Add a border for clarity */
     border-radius: 2px; /* Add rounded corners */
-
+}
 
 .title {
     display: flex;
@@ -46,7 +46,7 @@ form {
     height: 100vh; /* Make the form fill the entire viewport height */
   }
 
-button {
+.buttonEmail {
     background-color: #B4886B;
     color: white;
     border: none;
@@ -61,5 +61,4 @@ button {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-
-  }
+}
